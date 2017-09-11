@@ -16,7 +16,7 @@ html {
     width: 200px;
     height: 47px;
     border: 2px solid rgb(28, 91, 196);
-    margin-left: 735px;
+    margin: 0 auto;
     padding-left: 18px;
     background: url(img/main_icon1.png) 170px no-repeat;
     border-radius: 5px;
