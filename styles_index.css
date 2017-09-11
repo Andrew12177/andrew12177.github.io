@@ -1,0 +1,56 @@
+html {
+    background: url(img/kzhhnb6xsqi-margo-brodowicz.png) no-repeat;
+    background-size: 100%;
+    }
+.wrap {
+    height: 100%;
+    width: 100%;
+    padding-top: 250px;
+    }
+.logo {
+    width: 160px;
+    height: 200px;
+    margin: 0 auto;    
+    }
+.link_main {
+    width: 200px;
+    height: 47px;
+    border: 2px solid rgb(28, 91, 196);
+    margin-left: 735px;
+    padding-left: 18px;
+    background: url(img/main_icon1.png) 170px no-repeat;
+    border-radius: 5px;
+    line-height: 3;
+    }
+    .link_main:hover {
+        width: 200px;
+        height: 47px;
+        border: 2px solid rgb(28, 91, 196);
+        margin-left: 735px;
+        padding-left: 18px;
+        background: rgb(28, 91, 196) url(img/main_icon1.png) 170px no-repeat;
+        color: #ffffff;
+        border-radius: 5px;
+        line-height: 3;
+        }
+.link_main a {
+    width: 100%;
+    text-decoration: none;
+    color: rgb(28, 91, 196);
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    }
+    .link_main a:hover {
+        width: 100%;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        }
+
+      
+     
