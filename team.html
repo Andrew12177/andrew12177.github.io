@@ -5,122 +5,209 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- link rel="stylesheet" href="css/stylesmain.css" -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesteam.css">
     <title>Мой первый проект Экипаж</title>
 </head>
 
 <body>
     <div class="wrapper">
         <div class="header">
-            <div class="header_logo"><img src="" alt=""></div>
-            <div class="tel">
-                8 (800) 00-392-10
-            </div>
-            <div class="workhours">
-                График работы
+            <div class="container">
+                <img class="header__logo" src="img/logo_header.png" alt="AirPlanet"></img>
+                <div class="contacts">
+                    <div class="contacts__phone">8 (800) 00-392-10</div>
+                    <div class="contacts__desc">График работы</div>
+                </div>
             </div>
         </div>
-        <aside>
-            <ul class="menu">
-                <li class="main"><a href="main_page.html">Главная</a></li>
-                <li class="crew"><a href="">Экипаж</a></li>
-                <li class="feedback"><a href="">Отзывы</a></li>
-            </ul>
-        </aside>
-        <div class="article">
-            <div class="navi">
-                Главная/Экипаж
-            </div>
-            <h1 class="crewname">Экипаж</h1>
-            <div class="crewlist">
-                <div class="pilotblock">
-                    <div class="pilotpic"><img src="img/logo-1.png" alt=""></div>
-                    <div class="pilottext">
-                        <div class="pilotcredentials">
-                            <div class="pilotname">Name</div>
-                            <div class="pilotposition">position</div>
-                        </div>
-                        <div class="pilotstory"></div>
-                    </div>
+        <div class="content">
+            <div class="container">
+                <div class="section">
+                    <ul class="breadcrumbs">
+                        <li class="breadcrumbs__item">
+                            <a href="main_page.html" class="breadcrumbs__link">Главная</a>
+                        </li>
+                        <li class="breadcrumbs__item">
+                            <a href="team.html" class="breadcrumbs_team_link">Экипаж</a>
+                        </li>
+                    </ul>
+                    <h1 class="title">
+                        Экипаж
+                    </h1>
+                    <ul class="team">
+                        <li class="team__item">
+                            <div class="team__avatar">
+                                <img src="img/BelovAlex.png" alt="" class="team__avatar-pic">
+                            </div>
+                            <div class="team__desc">
+                                <div class="team__name">
+                                    Белов Алексей Вадимович
+                                </div>
+                                <div class="team__occ">
+                                    Главный пилот
+                                </div>
+                                <div class="team__content">
+                                    Высокий профессионализм, честь и отвага – все это характеристики главного пилота Белова А.В. На его счету более 700 полетов.
+                                    Награжден за мужество и отвагу указом президента.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="team__item">
+                            <div class="team__avatar">
+                                <img src="img/SukharinaInna.png" alt="" class="team__avatar-pic">
+                            </div>
+                            <div class="team__desc">
+                                <div class="team__name">
+                                    Сухарина Инна Николаевна
+                                </div>
+                                <div class="team__occ">
+                                    Бортпроводник
+                                </div>
+                                <div class="team__content">
+                                    Благодаря деятельности этого человека, на борту самолета клиенты чувствуют себя, как дома. Инна Николаевна чутко относится
+                                    ко всем требованиям клиентов, очень любит детей и всячески помогает сделать полет комфортным
+                                    и приятным.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="team__item">
+                            <div class="team__avatar">
+                                <img src="img/leschboris.png" alt="" class="team__avatar-pic">
+                            </div>
+                            <div class="team__desc">
+                                <div class="team__name">
+                                    Лещ Борис Анатольевич
+                                </div>
+                                <div class="team__occ">
+                                    Авиатехник
+                                </div>
+                                <div class="team__content">
+                                    Человек с золотыми руками, инженер и конструктор от Бога! Борис Анатольевич работает уже более 50 лет и на своем веку видел,
+                                    как из старых моделей самолетов появлялись настоящие авиа шедевры.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="team__item">
+                            <div class="team__avatar">
+                                <img src="img/digagnidze.png" alt="" class="team__avatar-pic">
+                            </div>
+                            <div class="team__desc">
+                                <div class="team__name">
+                                    Дигангидзе Элина Даниловна
+                                </div>
+                                <div class="team__occ">
+                                    Диспетчер
+                                </div>
+                                <div class="team__content">
+                                    Ей присущ внимательный подход к расчетам, а отменная память удивляет даже самых опытных членов экипажа. За 22 года работы
+                                    она стажировала более 100 диспетчеров для работы в крупнейших аэропортах страны. Знает
+                                    в совершенстве 5 иностранных языков.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="team__item">
+                            <div class="team__avatar">
+                                <img src="img/sledelena.png" alt="" class="team__avatar-pic">
+                            </div>
+                            <div class="team__desc">
+                                <div class="team__name">
+                                    Следь Елена Николаевна
+                                </div>
+                                <div class="team__occ">
+                                    Старший бортпроводник
+                                </div>
+                                <div class="team__content">
+                                    Вежливая улыбка, внимательность к деталям и большой опыт работы – это лишь малая часть достоинств Елены Николаевны. Старший
+                                    бортпроводник задает тон всей поездке, поэтому клиенты, которые летят с ней, заряжаются
+                                    отличным настроением и гармонией.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="team__item">
+                            <div class="team__avatar">
+                                <img src="img/nesterenko.png" alt="" class="team__avatar-pic">
+                            </div>
+                            <div class="team__desc">
+                                <div class="team__name">
+                                    Нестеренко Юрий Афанасьевич
+                                </div>
+                                <div class="team__occ">
+                                    Второй пилот
+                                </div>
+                                <div class="team__content">
+                                    Правая рука главного пилота, опытный и отважный помощник. О своей работе в шутку говорит так «Наше дело правое, не мешать
+                                    левому». Опыт работы составляет 18 лет, внимательно относится ко всем деталям и считает
+                                    свою работу – делом жизни.
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-            </div>
-            <div class="crewlist">
-                <div class="pilotblock">
-                    <div class="pilotpic"><img src="img/logo-1.png" alt=""></div>
-                    <div class="pilottext">
-                        <div class="pilotcredentials">
-                            <div class="pilotname">Name</div>
-                            <div class="pilotposition">position</div>
-                        </div>
-                        <div class="pilotstory"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="crewlist">
-                <div class="pilotblock">
-                    <div class="pilotpic"><img src="img/logo-1.png" alt=""></div>
-                    <div class="pilottext">
-                        <div class="pilotcredentials">
-                            <div class="pilotname">Name</div>
-                            <div class="pilotposition">position</div>
-                        </div>
-                        <div class="pilotstory"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="crewlist">
-                <div class="pilotblock">
-                    <div class="pilotpic"><img src="img/logo-1.png" alt=""></div>
-                    <div class="pilottext">
-                        <div class="pilotcredentials">
-                            <div class="pilotname">Name</div>
-                            <div class="pilotposition">position</div>
-                        </div>
-                        <div class="pilotstory"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="crewlist">
-                <div class="pilotblock">
-                    <div class="pilotpic"><img src="img/logo-1.png" alt=""></div>
-                    <div class="pilottext">
-                        <div class="pilotcredentials">
-                            <div class="pilotname">Name</div>
-                            <div class="pilotposition">position</div>
-                        </div>
-                        <div class="pilotstory"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="crewlist">
-                <div class="pilotblock">
-                    <div class="pilotpic"><img src="img/logo-1.png" alt=""></div>
-                    <div class="pilottext">
-                        <div class="pilotcredentials">
-                            <div class="pilotname">Name</div>
-                            <div class="pilotposition">position</div>
-                        </div>
-                        <div class="pilotstory"></div>
-                    </div>
+                <div class="sidebar">
+                    <ul class="nav">
+                        <li class="nav__item">
+                            <a href="main_page.html" class="nav__link">
+                          <img src="img/airplaneblue.png" alt="" class="nav__icon">
+                          <div class="nav__text">Главная</div>
+                        </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="team.html" class="nav__link">
+                          <img src="img/teamiconblack.png" alt="" class="nav__icon">
+                          <div class="nav__text__team">Экипаж</div>
+                        </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="" class="nav__link">
+                          <img src="img/feedblue.png" alt="" class="nav__icon">
+                          <div class="nav__text">Отзывы</div>
+                        </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
         <div class="footer">
-            <div class="footer_text">
-                Сделано с любовью и старанием<br> на курсе "HTML+CSS" в <span class="stress">LoftSchool</span>.<br> Автор
-                работы:
-                <span>Чадаев Андрей</span>.
-            </div>
-            <div class="container_footer">
-                <div class="footer_link">
-                    Наши социальные сети
+            <div class="footer__col">
+                <div class="footer__text">
+                        Сделано с любовью и старанием<br> на курсе "HTML+CSS" в <span class="stress">LoftSchool</span>.<br> Автор работы:
+                        <span class="footer__name">Чадаев Андрей</span>.
                 </div>
-                <div class="links">
-                    <a href="https://vk.com/"><img src="img/vk.png" alt="Мы в контакте"></a>
-                    <a href="https://ru-ru.facebook.com/"><img src="img/fb.png" alt="Мы в мордокниге"></a>
-                    <a href="https://google.com/"><img src="img/google.png" alt="Мы в Гугле"></a>
-                    <a href="https://twitter.com/"><img src="img/twitter.png" alt="Щебетун"></a>
-                    <a href="mailto:andrew12177@mail.ru"><img src="img/mail.png" alt="Щебетун"></a>
+            </div>
+            <div class="footer__col">
+                <img src="img/logo_header.png" alt="" class="logo">
+            </div>
+            <div class="footer__col">
+                <div class="socials">
+                    <div class="socials__title">Наши соц сети</div>
+                    <ul class="socials__list">
+                        <li class="socials__item">
+                            <a href="https://vk.com/" class="socials__link">
+                          <img src="img/vk.png" alt="Мы Вконтакте" class="socials__icon">
+                            </a>
+                        </li>
+                        <li class="socials__item">
+                            <a href="https://ru-ru.facebook.com/" class="socials__link">
+                          <img src="img/fb.png" alt="Мы в мордокниге" class="socials__icon">
+                        </a>
+                        </li>
+                        <li class="socials__item">
+                            <a href="https://google.com/" class="socials__link">
+                          <img src="img/google.png" alt="Погуглим?" class="socials__icon">
+                        </a>
+                        </li>
+                        <li class="socials__item">
+                            <a href="https://twitter.com/" class="socials__link">
+                          <img src="img/twitter.png" alt="Щебетун" class="socials__icon">
+                        </a>
+                        </li>
+                        <li class="socials__item">
+                            <a href="mailto:andrew12177@mail.ru" class="socials__link">
+                          <img src="img/mail.png" alt="Мыло" class="socials__icon">
+                        </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

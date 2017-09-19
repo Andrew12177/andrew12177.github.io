@@ -1,0 +1,127 @@
+li {
+    list-style: none;
+}
+body {
+    font-family: 'Roboto';
+    color: #221f1f;
+  }
+  .wrapper {
+    width: 1100px;
+  }
+.header {
+    background: #1c5bc3;
+    height: 56px;
+    padding: 20px;
+} 
+.contacts__phone {
+    font-size: 21px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.contacts__desc {
+    font-size: 14px;
+    font-weight: bold;
+    color: #bbceed;
+    text-decoration: underline; 
+}
+.breadcrumbs__link {
+    font-size: 14px;
+    font-weight: 300;
+    color: #1c5bc3;
+    font-style: italic;
+    
+}
+.breadcrumbs_team_link {
+    font-size: 14px;
+    font-weight: 300;
+    color: #221f1f;
+    text-decoration: none;
+    font-style: italic;
+}
+.title {
+    font-size: 49px;
+    font-weight: 700;
+    color: #221f1f;
+    font-style: bold;
+}
+.team__item {
+    width: 258px;
+}
+
+.team__desc {
+    width: 258px;
+    height: 231px;
+    text-align: center;
+}
+.team__avatar-pic {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-left: 48px;
+}
+.team__name {
+    font-size: 18px;
+    font-weight: 700;
+    font-style: bold;
+}
+.team__occ {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1c5bc3;
+    font-style: bold;
+}
+.team__content {
+    font-size: 14px;
+    font-weight: 300;    
+}
+.nav__item {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-top: 25px;
+}
+
+.nav__item a {
+    text-decoration: none;
+    color: #1c5bc3;    
+}
+.nav__text__team {
+    color: #221f1f;
+}
+
+.footer {
+    background: #1c5bc3;
+    height: 56px;
+    padding: 20px;
+}
+.footer__text {
+    font-size: 14px;
+    color: #ffffff;
+}
+span {
+    font-weight: bold;
+}
+.stress {
+    border-bottom: 3px solid #809ad7;    
+    font-weight: bold;
+}
+
+.socials__title {
+    font-size: 14px;
+    color: #ffffff;
+    font-style: bold;
+}
+.socials__link {
+    background: url(../img/sociallinkbg.png) no-repeat;
+    margin: 5px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    
+}
+.socials__icon {
+    margin-left: 3px;
+    
+}
+
